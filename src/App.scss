@@ -1,0 +1,26 @@
+// Defaults
+$font-poppins: 'Poppins';
+$theme-colors:(
+    "primary": #ffe3b7, "secondary": #840404, "tertiary": #ffaf00,
+);
+
+
+// Imports
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&family=Poppins&display=swap');
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+
+
+// Start of SCSS
+body{
+    background-color: #840404;
+}
+h1{
+    text-align: center;
+    font-family: $font-poppins;
+    font-weight: 500%;
+    color: #ffe3b7;
+}
+li{
+    color: white;
+}
