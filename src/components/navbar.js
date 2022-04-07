@@ -33,6 +33,7 @@ export default class Navbar extends Component {
                   <li><Link className="dropdown-item" to="/pizza">Pizza</Link></li>
                   <li><Link className="dropdown-item" to="/wings">Wings</Link></li>
                   <li><Link className="dropdown-item" to="/nachos">Nachos</Link></li>
+                  <li><Link className="dropdown-item" to="/chicken">Chicken</Link></li>
                 </ul>
                 </li>
           <li><Link to="/about" className="nav-link">About Us</Link></li>
